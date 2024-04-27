@@ -135,5 +135,6 @@ int main()
 
 ## OUTPUT
 ![alt text](<WhatsApp Image 2024-04-28 at 00.45.06_a0c44a6b.jpg>)
+![alt text](<WhatsApp Image 2024-04-28 at 00.55.28_f73b42cc.jpg>)
 # RESULT:
 The program is executed successfully.
