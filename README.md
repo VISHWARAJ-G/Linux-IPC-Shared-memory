@@ -148,5 +148,8 @@ int main()
 ![alt text](<WhatsApp Image 2024-05-07 at 13.40.06_8ce21f14.jpg>)
 ### shmry2.o
 ![alt text](<WhatsApp Image 2024-05-07 at 13.40.06_4b41bcad.jpg>)
+### ipcs
+![alt text](<WhatsApp Image 2024-04-28 at 00.55.28_f73b42cc.jpg>)
+
 # RESULT:
 The program is executed successfully.
