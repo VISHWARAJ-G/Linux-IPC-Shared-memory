@@ -1,5 +1,3 @@
-//shm.c
-
 #include<unistd.h> 
 #include<stdlib.h> 
 #include<stdio.h> 
@@ -18,7 +16,7 @@ struct shared_use_st *shared_stuff;
 char buffer[BUFSIZ];
 int shmid;
 shmid	=shmget(	(key_t)1234,	sizeof(struct shared_use_st), 0666 | IPC_CREAT);
-printf("Shared memort id = %d \n",shmid);
+printf("Shared memory id = %d \n",shmid);
 if (shmid == -1)
 {
 fprintf(stderr, "shmget failed\n"); exit(EXIT_FAILURE);
@@ -26,7 +24,7 @@ fprintf(stderr, "shmget failed\n"); exit(EXIT_FAILURE);
 shared_memory=shmat(shmid, (void *)0, 0);
 if (shared_memory == (void *)-1){
 fprintf(stderr,	"shmat	failed\n"); exit(EXIT_FAILURE);}
-printf("Memory Attached at %x\n", (int) shared_memory); 
+printf("Memory Attached at %p\n",shared_memory);
 shared_stuff = (struct shared_use_st *)shared_memory; 
 while(running)
 {
