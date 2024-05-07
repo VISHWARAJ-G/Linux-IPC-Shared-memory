@@ -144,7 +144,9 @@ int main()
 
 ```
 ## OUTPUT
-![alt text](<WhatsApp Image 2024-04-28 at 00.45.06_a0c44a6b.jpg>)
-![alt text](<WhatsApp Image 2024-04-28 at 00.55.28_f73b42cc.jpg>)
+### shmry1.o
+![alt text](<WhatsApp Image 2024-05-07 at 13.40.06_8ce21f14.jpg>)
+### shmry2.o
+![alt text](<WhatsApp Image 2024-05-07 at 13.40.06_4b41bcad.jpg>)
 # RESULT:
 The program is executed successfully.
